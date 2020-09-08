@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users Autorization</title>
+</head>
+<style>
+    li {
+     list-style-type: none; /* Убираем маркеры */
+    }
+    ul {
+     margin-left: 50px; /* Отступ слева в браузере IE и Opera */
+     padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+    }
+   </style>
+<body>
+
+    <form action="check.php" method="POST">
+        <ul>
+            <li>
+                <h1>Registration form!</h1>
+            </li>
+            <li><input type="text" class="formControl" name="fullname" id="fullname" placeholder="Enter your full name" /></li><br>
+            <li><input type="email" class="formControl" name="email" id="email" placeholder="Enter your Email" /></li><br>
+            <li><input type="text" class="formControl" name="username" id="username" placeholder="Enter username" /></li><br>
+            <li><input type="password" class="formControl" name="password" id="password" placeholder="Enter password" /></li><br>
+            <li><input type="password" class="formControl" name="password_2" id="password_2" placeholder="Repeat password" /></li><br>
+            <li><button type="submit">Sign Up</button></li>
+        </ul>
+    </form>
+</body>
+
+</html>

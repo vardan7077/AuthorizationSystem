@@ -1,0 +1,38 @@
+.SignUp {
+    text-align-last: center;
+    background-color: yellowgreen;
+}
+
+li {
+    list-style-type: none;
+    /* Убираем маркеры */
+}
+
+ul {
+    margin-left: 50px;
+    /* Отступ слева в браузере IE и Opera */
+    padding-left: 0;
+    /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+
+.Error{
+    background-color: rgb(180, 12, 12);
+    color: white;
+    text-align-last: left;
+}
+.Success{
+    background-color: blue;
+    color: white;
+    text-align-last: center;
+}
+
+.back{
+    text-align-last: left;
+
+}
+.backbutton{
+    text-align-last: left;
+    color:white;
+    background-color: black;
+}
